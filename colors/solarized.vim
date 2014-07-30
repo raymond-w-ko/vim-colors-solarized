@@ -969,6 +969,15 @@ exe "hi! pandocMetadataKey"              .s:fg_blue   .s:bg_none   .s:fmt_none
 exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
+" Custom highlighting groups
+" ---------------------------------------------------------------------
+exe "hi! InterestingWord1"               .s:fg_green    .s:bg_none   .s:fmt_revr
+exe "hi! InterestingWord2"               .s:fg_cyan     .s:bg_none   .s:fmt_revr
+exe "hi! InterestingWord3"               .s:fg_blue     .s:bg_none   .s:fmt_revr
+exe "hi! InterestingWord4"               .s:fg_violet   .s:bg_none   .s:fmt_revr
+exe "hi! InterestingWord5"               .s:fg_magenta  .s:bg_none   .s:fmt_revr
+exe "hi! InterestingWord6"               .s:fg_orange   .s:bg_none   .s:fmt_revr
+
 "}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
